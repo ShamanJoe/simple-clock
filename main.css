@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    background-color: rgb(66, 72, 73);
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+}
+
+#headline{
+    margin: auto;
+    padding: 20px;
+}
+
+#time{
+    padding: 20px;
+    margin: auto;
+    font-size: 2em
+}
+#date{
+    padding: 20px;
+    margin: auto;
+    font-size: 2em
+}
